@@ -1,12 +1,4 @@
-#from sys import version
 
-#import requests
-# Import something which lets me know the current time
-#def polymarketsstuff: #All of the functions for the polymarkets API
-#r = requests.get("https://gamma-api.polymarket.com/events?closed=false") # Grab all polymarkets events
-#response = r.json 
-#def OddsAPIstuff: #All of the funcitons for OddsAPI
-#c = 'currentdate'#get from time import
 
 
 import keyboard
@@ -35,32 +27,5 @@ while True:
 
 
     
-
-
-
-
-#for event in response:
-    #if date == c+1:
-        #if 'sports' in 'eventname':
-            #if 'soccer' or 'nfl' in 'eventname':
-             #print('NO')
-            #else:
-                #home = 'hometeam'
-                #away = 'awayteam'
-                #p = 'oddshometeamwins'
-                #m = 'oddsawayteamwins'
-                #for eventodds in responseodds:
-                    #if 'home' == homeodds, 'away'== 'awayodds', 'date' ==: 
-                
-
-
-
-# Filter events down to ones happening tmrw
-# Filter events down to sports related ones(exc. sports that have draws(Soccer, NFL primarily))
-# For each event, identify the home and away team, and pull out the current odds(Include the weird update thing)
-# Pull out the odds for the same event from OddsAPI
-# Run Arbitrage Calculations between odds, if successful then print current odds
-# Maybe have a separate machine for fast-tracking updated odds
-         
 
 
