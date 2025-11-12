@@ -8,16 +8,16 @@ h = 2
 while True: 
     
 
-    odds1 = 100/float(input('First Value? '))
-    odds2 = float(input('Second Value? '))
+    odds1 = 100/float(input('First Value? ')) # This is for polymarket
+    odds2 = float(input('Second Value? ')) #This is for sportsbet
     x = 1/odds1 + 1/odds2
     if x < 1:
         print ('$$$$')
         comb = odds1+odds2 
         bet1 = seeed*odds2/comb
         bet2 = seeed*odds1/comb
-        print (round(bet1, 2),round(bet2, 2))
-        print (bet2/odds1)
+        print (round(bet1, 2),round(bet2, 2)) #These show the amt of money you need to bet for both wagers
+        print (bet2*odds1 - seeed) #This shows the expected profit
     else:
         print('try again!')
     
